@@ -1,0 +1,14 @@
+# Compiled C programs
+*.exe
+
+# Object files
+*.o
+
+# Visual Studio files
+.vs/
+bin/
+obj/
+
+# Build folders
+Debug/
+Release/
