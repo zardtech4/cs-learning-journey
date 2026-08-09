@@ -3,9 +3,10 @@
 int main(void)
 
 {
-    int secret= 7;
-    int guess = 0;
+    srand(time(NULL));
 
+    int secret= rand() % 100 + 1;
+    int guess = 0;
 
 
 while(guess !=secret)
