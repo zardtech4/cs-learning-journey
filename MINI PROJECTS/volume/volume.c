@@ -9,7 +9,7 @@ const int HEADER_SIZE = 44;
 
 int main(int argc, char *argv[])
 {
-    // Check command-line arguments
+    
     if (argc != 4)
     {
         printf("Usage: ./volume input.wav output.wav factor\n");
