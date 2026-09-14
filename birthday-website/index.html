@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🥹🥳🎉</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cinematic ambient lighting -->
+<div class="ambient-light">
+    <div class="light-orb orb-one"></div>
+    <div class="light-orb orb-two"></div>
+    <div class="light-orb orb-three"></div>
+</div>
+
+    <main class="birthday-page">
+
+       >
+
+        <section id="birthday-screen">
+
+            <p class="small-text">
+                A little surprise awaits...
+            </p>
+
+            <h1>
+                Happy Birthday 🎂
+            </h1>
+
+            <p class="question">
+                But first, I need to make sure it's really you...
+            </p>
+
+            <h2>
+                When were you born?
+            </h2>
+
+            <input
+                type="date"
+                id="birthDate"
+            >
+
+            <button id="continueButton">
+                Continue ✨
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+
+       
+
+        <section id="welcome-screen" class="hidden">
+
+            <p class="small-text">
+                I knew it was you... ❤️
+            </p>
+
+            <h1>
+                Welcome, <span id="personName"></span>
+            </h1>
+
+            <p class="welcome-message">
+                I've been waiting for you.
+            </p>
+
+            <button id="beginButton">
+                Let's begin ✨
+            </button>
+
+        </section>
+
+
+        
+
+        <section id="experience3-screen" class="hidden">
+
+            <div class="memory-background">
+
+                <img
+                    src="images/Screenshot_20260820_190842_WhatsApp.jpg"
+                    class="memory-photo active"
+                >
+
+                <img
+                    src="images/Screenshot_20260702_153540_WhatsApp.jpg"
+                    class="memory-photo"
+                >
+
+                <img
+                    src="images/Screenshot_20260807_111657_WhatsApp.jpg"
+                    class="memory-photo"
+                >
+
+                <img
+                    src="images/IMG-20260701-WA0023.jpg"
+                    class="memory-photo"
+                >
+
+                <img
+                    src="images/Screenshot_20260912_170632_WhatsApp.jpg"
+                    class="memory-photo"
+                >
+
+            </div>
+
+
+            <div class="memory-overlay"></div>
+
+
+            <div class="memory-content">
+
+                <p id="memoryText">
+                    Remember when you were this little? ❤️
+                </p>
+
+
+                
+
+                <div id="gift-area" class="hidden">
+
+                    <p id="giftMessage">
+                        Since you've remembered where you came from...
+                    </p>
+
+                    <div id="flowerGift" class="gift-item">
+                        🌷
+                    </div>
+
+                    <p id="giftHint">
+                        Take it ❤️
+                    </p>
+
+                    <div id="chocolateGift" class="gift-item hidden">
+                        🍫
+                    </div>
+
+                </div>
+
+
+              
+
+                <div id="distance-area" class="hidden">
+
+                    <div class="distance-glow glow-one"></div>
+                    <div class="distance-glow glow-two"></div>
+                    <div class="distance-glow glow-three"></div>
+
+                    <p class="distance-line">
+                        There's just one little problem...
+                    </p>
+
+                    <p class="distance-line">
+                        You're far away. ❤️
+                    </p>
+
+                    <p class="distance-line">
+                        So I couldn't be there to give you these things myself.
+                    </p>
+
+                    <p class="distance-line">
+                        I couldn't hand you the flowers...
+                    </p>
+
+                    <p class="distance-line">
+                        I couldn't hand you the chocolate...
+                    </p>
+
+                    <p class="distance-line">
+                        But I still wanted to give you something.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+       
+
+        <section id="final-section" class="hidden">
+
+            <img
+                id="final-poster"
+                src="images/ChatGPT Image Sep 14, 2026, 03_37_21 PM.png"
+                alt="A special birthday message"
+            >
+
+            <audio id="myAudio">
+
+                <source
+                    src="music/New Project - Voice_Audio (3).wav"
+                    type="audio/wav"
+                >
+
+            </audio>
+
+        </section>
+
+    </main>
+
+
+    
+    <audio id="birthdaySong" loop>
+
+        <source
+            src="music/birthday-song.mp3.wav"
+            type="audio/wav"
+        >
+
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
